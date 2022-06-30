@@ -1,0 +1,61 @@
+  body {
+    padding: 50px;
+    align-items: center;
+    background: white;
+    width: 100%;
+  }
+
+  
+  .board {
+    background: #4370F1;
+    width:1050px;
+    height: 740px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 12%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .column:hover {
+    background-color: #0e3dbe;
+  }
+
+  .column .cell {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .column .player-1 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .column .player-2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  .game-finished {
+    pointer-events: none;
+  }
+
+
+
